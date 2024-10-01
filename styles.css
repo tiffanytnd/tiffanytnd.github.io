@@ -1,0 +1,43 @@
+html * {
+  line-height: 1.625;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FDFDFD;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration-color: #9690BD;
+  text-underline-position: under;
+  text-decoration-thickness: 2px;
+  background: linear-gradient(to right, rgb(255, 250, 205) 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+}
+
+a:hover {
+  background-position: left bottom;
+}
+
+a.org {
+  text-decoration-color: #8BA9C6;
+}
+
+a.work {
+  text-decoration-color: #CAA2A2;
+}
+
+.content {
+  max-width: 500px;
+  padding: 5px;
+  margin: auto;
+}
+
+.links {
+  margin: 0 8px 0 0;
+  text-decoration-color: black;
+}
